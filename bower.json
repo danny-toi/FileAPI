@@ -1,6 +1,6 @@
 {
   "name": "fileapi",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "main": [
     "./dist/FileAPI.flash.camera.swf",
     "./dist/FileAPI.flash.image.swf",
