@@ -1713,9 +1713,10 @@
 						if( _type !== evt.type ){
 							_type = evt.type; // Store current type of event
 
-							if( _type != 'dragleave' ){
+							/*if( _type != 'dragleave' ){
 								onHover.call(evt[currentTarget], true, evt);
-							}
+							}*/
+							onHover.call(evt[currentTarget], _type != 'dragleave', evt);
 
 							debounceTrigger = true;
 						}
